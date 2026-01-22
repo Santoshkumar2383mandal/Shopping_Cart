@@ -6,7 +6,7 @@ export default function Home() {
        <div>
          {product.map((p)=>(
             <button key={p.id} onClick={()=> add (p)}>
-                Add {p.title} - ${p.price}
+                Add {p.title}
             </button>
          ))}
        </div>
